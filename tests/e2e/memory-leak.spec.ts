@@ -35,14 +35,14 @@ test("memory leak — heap growth stays under budget over a long-running room", 
         /* private mode */
       }
     },
-    { prefix: "__APP_NAME__", room: `leak-${Date.now()}` },
+    { prefix: "mesh-role-draw", room: `leak-${Date.now()}` },
   );
 
   const a = await ctx.newPage();
   const b = await ctx.newPage();
   await Promise.all([
-    a.goto("/__APP_NAME__/", { waitUntil: "domcontentloaded" }),
-    b.goto("/__APP_NAME__/", { waitUntil: "domcontentloaded" }),
+    a.goto("/mesh-role-draw/", { waitUntil: "domcontentloaded" }),
+    b.goto("/mesh-role-draw/", { waitUntil: "domcontentloaded" }),
   ]);
 
   // Settle the initial mount + first GC opportunity.
