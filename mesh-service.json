@@ -1,0 +1,7 @@
+{
+  "$schema": "https://baditaflorin.github.io/mesh-common/mesh-service.schema.json",
+  "id": "mesh-role-draw",
+  "category": "Coordination",
+  "subcategory": "Check-in & assignments",
+  "useCases": ["meeting roles", "workshops", "small teams"]
+}
