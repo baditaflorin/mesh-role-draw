@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "app": "mesh-role-draw",
+  "sourceCommit": "0b75a908b97a533378766bd748b12be087e01a54",
+  "releaseCommit": "0b75a908b97a533378766bd748b12be087e01a54",
+  "meshCommonCommit": "025f7ff72e50c4b54a3f4a2d8c88f4f600dec78f",
+  "recordedAt": "2026-08-27T20:45:00Z"
+}
